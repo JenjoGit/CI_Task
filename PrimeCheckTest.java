@@ -1,6 +1,8 @@
 import org.junit.Assert;
-import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class PrimeCheckTest {
   // --------------------------------------------------------------- //
@@ -23,13 +25,23 @@ public class PrimeCheckTest {
   @Test
   public void testPrimes() {
     /* ToDo: insert a test here */
-    assertEquals("this will fail", true, false);
+    assertTrue(PrimeCheck.isPrime(3));
+    assertTrue(PrimeCheck.isPrime(5));
+    assertTrue(PrimeCheck.isPrime(7));
+    assertTrue(PrimeCheck.isPrime(11));
+    assertTrue(PrimeCheck.isPrime(13));
   }
 
   // --------------------------------------------------------------- //
   @Test
   public void testNonPrimes() {
     /* ToDo: insert a test here */
-    assertEquals("this will fail", true, false);
+    assertFalse(PrimeCheck.isPrime(4));
+    assertFalse(PrimeCheck.isPrime(6));
+    assertFalse(PrimeCheck.isPrime(120));
+    assertFalse(PrimeCheck.isPrime(36));
+    assertFalse(PrimeCheck.isPrime(15));
+    assertFalse(PrimeCheck.isPrime(25));
+    assertFalse(PrimeCheck.isPrime(49));
   }
 }
