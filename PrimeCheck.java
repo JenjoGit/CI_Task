@@ -1,3 +1,5 @@
+//Zusammenarbeit zwischen Phil Drexler, Robin Bisanz, Jens Herdtfelder
+
 public class PrimeCheck {
   /**
    * @param number that is tested

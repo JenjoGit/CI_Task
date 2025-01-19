@@ -1,3 +1,5 @@
+//Zusammenarbeit zwischen Phil Drexler, Robin Bisanz, Jens Herdtfelder
+
 import org.junit.Assert;
 
 import org.junit.Test;
